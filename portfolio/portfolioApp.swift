@@ -11,7 +11,8 @@ import SwiftUI
 struct portfolioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            navMenu()
+                .preferredColorScheme(ColorScheme.light)
         }
     }
 }
